@@ -1,1 +1,3 @@
-# heroku_postgres_min
+# Minimalistic python heroku postgres example
+
+
