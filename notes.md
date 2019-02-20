@@ -7,12 +7,13 @@ virtualenv spp
 . spp/bin/activate
 ```
 
-2. The name of the database can be call just like this: DATABASE_URL
+2. The name of the database is in the environment, in DATABASE_URL
 
+3. The database from the command line, you can use:
 
-3. To consult the database from the command line, you can use:
-
-```bash
+```sh
 heroku pg:psql
-select * from testing;
+```
+```sql
+SELECT * FROM testing;
 ```
