@@ -1,6 +1,6 @@
 # Minimalistic heroku postgres example using python
 
-See notes for beginners if you are one of them (or if you do not have a great memory).
+See notes.md for beginners if you are one of them (or if you do not have a great memory).
 
 1. Set-up configurations
 ```shell

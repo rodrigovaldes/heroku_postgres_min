@@ -1,5 +1,7 @@
 # Notes for beginners
 
+Below, please find helpful code to understand the main files.
+
 1. Remember to activate the virtual environment
 
 ```bash
@@ -9,7 +11,7 @@ virtualenv spp
 
 2. The name of the database is in the environment, in DATABASE_URL
 
-3. The database from the command line, you can use:
+3. Query the database from the command line:
 
 ```sh
 heroku pg:psql

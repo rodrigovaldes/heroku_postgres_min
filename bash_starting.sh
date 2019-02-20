@@ -1,5 +1,4 @@
 # Set-up the initial configurations
-# Remember to change the name of the APP (a few lines below)
 
 # Virtual environment
 virtualenv spp
@@ -7,7 +6,7 @@ virtualenv spp
 # To use postgres in python
 pip install psycopg2-binary
 # Create heroku app
-heroku create spp ## Change the name of the APP; the name is 'spp' now
+heroku create ##
 heroku addons:create heroku-postgresql:hobby-dev
 pip freeze > requirements.txt
 
